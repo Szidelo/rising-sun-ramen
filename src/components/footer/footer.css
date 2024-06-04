@@ -1,0 +1,19 @@
+footer {
+    background-color: black;
+    padding: 30px 0;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer__content p {
+    color: white;
+}
+
+.link-portfolio {
+    color: var(--light-green) !important;
+}

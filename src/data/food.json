@@ -1,0 +1,118 @@
+{
+    "ramen": [
+        {
+            "id": "a1",
+            "name": "tonkatsu pork belly",
+            "weight": 700,
+            "unit": "gram",
+            "image": "/img/tonkotsu.jpg",
+            "ingredients": ["piept de porc", "shitake", "ridiche", "coriandru", "ceapă verde", "ouă", "morcov", "noodles"],
+            "price": 45,
+            "currency": "ron"
+        },
+        {
+            "id": "a2",
+            "name": "tonkatsu chicken",
+            "weight": 700,
+            "unit": "gram",
+            "image": "/img/tonkotsu-chicken.jpg",
+            "ingredients": ["pulpă de pui", "shitake", "ridiche", "coriandru", "ceapă verde", "ouă", "morcov", "noodles"],
+            "price": 45,
+            "currency": "ron"
+        },
+        {
+            "id": "a3",
+            "name": "tonkatsu vegan",
+            "weight": 700,
+            "unit": "gram",
+            "image": "/img/tonkatsu-vegan.webp",
+            "ingredients": ["shitake", "ridiche", "coriandru", "ceapă verde", "ouă", "morcov", "noodles"],
+            "price": 45,
+            "currency": "ron"
+        }
+    ],
+    "sushi": [
+        {
+            "id": "b1",
+            "name": "maki ton roll",
+            "weight": 150,
+            "unit": "gram",
+            "image": "/img/sushi-ton.jpg",
+            "ingredients": ["ton", "orez", "nori", "sos soia", "wasabi"],
+            "price": 35,
+            "currency": "ron"
+        },
+        {
+            "id": "b2",
+            "name": "maki somon roll",
+            "weight": 150,
+            "unit": "gram",
+            "image": "/img/sushi-somon.jpg",
+            "ingredients": ["somon", "orez", "nori", "sos soia", "wasabi"],
+            "price": 35,
+            "currency": "ron"
+        },
+        {
+            "id": "b3",
+            "name": "maki vegan roll",
+            "weight": 150,
+            "unit": "gram",
+            "image": "/img/sushi-vegan.jpg",
+            "ingredients": ["shitake", "orez", "nori", "ridichi", "castraveți", "sos Soia", "wasabi"],
+            "price": 35,
+            "currency": "ron"
+        }
+    ],
+    "other": [
+        {
+            "id": "c1",
+            "name": "fish fingers - fisshusutikku",
+            "weight": 350,
+            "unit": "gram",
+            "image": "/img/fish-sticks.webp",
+            "ingredients": ["cartofi pai", "somn african", "sos kewpie"],
+            "price": 35,
+            "currency": "ron"
+        },
+        {
+            "id": "c2",
+            "name": "crispy - karikari",
+            "weight": 350,
+            "unit": "gram",
+            "image": "/img/crispi.jpg",
+            "ingredients": ["cartofi pai", "crispy pui", "sos sriracha"],
+            "price": 35,
+            "currency": "ron"
+        },
+        {
+            "id": "c3",
+            "name": "schnitzel - bifu katsu",
+            "weight": 320,
+            "unit": "gram",
+            "image": "/img/shnitzel.jpg",
+            "ingredients": ["șnițel vită", "salată", "sos hoisin", "semințe"],
+            "price": 37,
+            "currency": "ron"
+        },
+        {
+            "id": "c4",
+            "name": "fish salad - sakana no sarada",
+            "weight": 320,
+            "unit": "gram",
+            "image": "/img/fish-salad.jpg",
+            "ingredients": ["somn african", "rukkola", "migdale", "brânza de capră", "salată lola", "dresing Yuzu"],
+            "price": 35,
+            "currency": "ron"
+        },
+        {
+            "id": "c5",
+            "name": "veggie salad - bitsu sarada",
+            "weight": 320,
+            "unit": "gram",
+            "image": "/img/veggie-salad.jpg",
+            "ingredients": ["sfeclă", "rukkola", "migdale", "brânza de capră", "salată lola", "dresing Yuzu"],
+            "price": 30,
+            "currency": "ron"
+        }
+    ]
+}

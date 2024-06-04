@@ -1,0 +1,65 @@
+.menu-list-item {
+    padding: 10px;
+}
+
+.menu-card {
+	border-radius: 10px;
+	max-width: 900px;
+    min-height: 300px;
+    background-color: white;
+    box-shadow: 0 0 5px 5px var(--shadow);
+}
+
+.menu__container {
+	max-width: 1440px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.menu__container-section-header {
+    color: var(--light-green);
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.menu-card__img-wrapper {
+	height: 250px;
+}
+
+.menu-card__img-wrapper img {
+	border-radius: 10px 10px 0 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.menu-card__info {
+    padding: 20px 10px;
+}
+
+.menu-card__info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.menu-card__info p {
+    color: var(--dark-green);
+    line-height: none;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.menu-card__info h4 {
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.badeg-ingredient {
+    background-color: var(--light-green);
+    text-transform: capitalize;
+}

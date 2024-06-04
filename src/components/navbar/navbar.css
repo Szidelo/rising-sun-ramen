@@ -1,0 +1,42 @@
+.navigation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: transparent;
+	z-index: 20;
+}
+
+.navigation__container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1440px;
+	margin: 10px auto;
+}
+
+.navigation__bar-list {
+	display: flex;
+	list-style: none;
+}
+
+.navigation__bar-list li {
+	margin: 3px 10px;
+}
+
+.navigation__bar-list li a {
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+	font-size: 22px;
+	font-weight: 500;
+	border-bottom: 1px solid transparent;
+}
+
+.navigation__bar-list li a.active {
+	border-color: white !important;
+}
+
+.navigation__bar-list li a:hover {
+	border-color: white;
+}
