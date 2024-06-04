@@ -18,6 +18,10 @@
 	--white: rgb(250, 250, 220);
 }
 
+#root {
+	overflow-x: hidden;
+}
+
 .btn {
 	background-color: transparent;
 	border: none;
@@ -35,4 +39,8 @@
 .main-btn a:hover {
 	background-color: transparent;
 	color: black;
+}
+
+#menu {
+	overflow-x: hidden;
 }

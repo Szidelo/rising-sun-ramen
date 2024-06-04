@@ -18,7 +18,7 @@ const MenuSection = () => {
 					<img src={FOOD_DATA.other[1].image} alt="" />
 				</div>
 			</div>
-			<div className="menu__text">
+			<div className="menu__text px-3">
 				<p className="my-4">
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, animi?
 				</p>

@@ -2,7 +2,7 @@ import Banner from "../components/banner/Banner";
 import MenuList from "../components/menu/MenuList";
 
 const Menu = () => {
-	return <main>
+	return <main id="menu">
 		<Banner/>
 		<MenuList/>
 	</main>;
