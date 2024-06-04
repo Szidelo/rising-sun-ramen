@@ -23,9 +23,9 @@ function App() {
 				<Route path="/" errorElement={<NotFound />} element={<Layout />}>
 					<Route index element={<Home />} />
 					<Route path="*" element={<NotFound />} />
-					<Route path="menu" element={<Menu />} />
-					<Route path="menu/:id" element={<FoodElement />} />
-					<Route path="contact" element={<Contact />} />
+					<Route path="/menu" element={<Menu />} />
+					<Route path="/menu/:id" element={<FoodElement />} />
+					<Route path="/contact" element={<Contact />} />
 				</Route>
 			</Routes>
 		</>

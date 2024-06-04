@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { FiMenu } from "react-icons/fi";
-import { CgClose } from "react-icons/cg";
+// import { FiMenu } from "react-icons/fi";
+// import { CgClose } from "react-icons/cg";
 
 import "./navbar.css";
 
@@ -55,11 +55,11 @@ const Navbar = () => {
 						<Link to="/">LOGO</Link>
 					</div>
 					<div>
-						<FiMenu className="menu-btn" onClick={toggleNav} />
+						{/* <FiMenu className="menu-btn" onClick={toggleNav} /> */}
 					</div>
 					<div className={isVisible ? "mobile-nav-list" : "mobile-nav-list hidden"}>
 						<div>
-							<CgClose className="close-btn" onClick={toggleNav} />
+							{/* <CgClose className="close-btn" onClick={toggleNav} /> */}
 						</div>
 						<ul>
 							{links.map((link) => {
